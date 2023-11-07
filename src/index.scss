@@ -1,0 +1,40 @@
+:root {
+  --index: calc(1vw + 1vh);
+
+  //palette
+  --color-main: #302828;
+  --color-secondary: #918f8f;
+  --color-font-main: #ffffff;
+  --color-font-secondary: #d3d3d3;
+  --color-background: #000000;
+  //
+
+  //font size
+  --size-font-xs: calc(var(--index) * 0.5);
+  --size-font-s: calc(var(--index) * 1);
+  --size-font-m: calc(var(--index) * 1.5);
+  --size-font-l: calc(var(--index) * 2);
+  --size-font-xl: calc(var(--index) * 3);
+  //
+
+  //font family
+  --family-main: monospace;
+  //
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*::-webkit-scrollbar {
+  width: 6px; /* ширина scrollbar */
+}
+*::-webkit-scrollbar-track {
+  background-color: var(--color-main); /* цвет плашки */
+}
+*::-webkit-scrollbar-thumb {
+  background: var(--font-color-code-secondary); /* цвет дорожки */
+  border-radius: 8px; /* закругления плашки */
+}

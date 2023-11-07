@@ -1,0 +1,13 @@
+.Lines {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	container-type: inline-size;
+}
+
+.Line {
+	width: 3px;
+	background-color: #fff;
+}
